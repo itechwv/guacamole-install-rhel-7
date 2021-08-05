@@ -133,7 +133,7 @@ if [ $GUAC_SOURCE == "Git" ]; then
 	GUAC_SERVER="guacamole-server.git"
 	GUAC_CLIENT="guacamole-client.git"
 	MAVEN_MAJOR_VER=${MAVEN_VER:0:1}
-	MAVEN_URL="https://www-us.apache.org/dist/maven/maven-${MAVEN_MAJOR_VER}/${MAVEN_VER}/binaries/"
+	MAVEN_URL="https://downloads.apache.org/maven/maven-${MAVEN_MAJOR_VER}/${MAVEN_VER}/binaries/"
 	MAVEN_FN="apache-maven-${MAVEN_VER}"
 	MAVEN_BIN="${MAVEN_FN}-bin.tar.gz"
 else # Stable release
